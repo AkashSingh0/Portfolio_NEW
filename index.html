@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <link
+    href="https://fonts.googleapis.com/cssc:\Users\Akash\Downloads\developer.jpg2?family=Quicksand:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Akash Singh</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Akash Singh<br />a</span> Web Developer
+        </h1>
+        <p class="description">
+          Welcome to my web developer portfolio! I'm Akash, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. I've worked on a different
+          of web projects, ranging from marriage webiste page to Blogging
+          page.
+        </p>
+        <div class="action__btns">
+          <button class="hire__me" id="btn">Hire me</button>
+          <button class="portfolio" id="btn">Resume</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="imgPort24.jpeg" alt="profile"/>
+      </div>
+    </div>
+  </section>
+  <!-- About-->
+  <section>
+    <div id="about">
+      <div class="container">
+        <h1 class="sub-title">About Me</h1>
+        <div class="row">
+          <div class="about-col-1">
+            <img src="portfolio24.avif">
+          </div>
+          <div class="about-col-2">
+            <!-- <h1 class="sub-title">About Me</h1> -->
+            <p>Hello World! I'm Akash Singh, a Front-End Web Developer based out of India, Desigining taught me how to share my projects, skills, and story with employers and helped me land my dream job.
+              I started my coding journey almost exactly a year ago and now I'm looking for freelance projects or want to work in a companies. This is my portfolio nd below i mentioned my skills , experience and my education.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <p><span>UI/UX</span><br>Desigining Website</p>
+              <p><span>Web Development</span><br>Front-End Development</p>
+              <p><span>C++</span><br>Coding</p>
+            </div>
+            <div class="tab-contents" id="experience">
+              <p><span>DevOps</span><br>From Coursera</p>
+              <p><span>Frontend Development</span><br>From Code Clause</p>
+              <p><span>Android Development</span><br>From CITC</p>
+            </div>
+            <div class="tab-contents" id="education">
+              <p><span>2020-2023</span><br>Bsc.IT from Ranchi University</p>
+              <p><span>2023-Present</span><br>MCA from CMR University</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-regular fa-pen-to-square"></i>
+            <h2>Web Design</h2>
+            <p>"Website without visitors is like a ship lost in the horizon"
+                Explore my project through github.
+            </p>
+            <a href="#" target="_blank">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>UI/UX is the core part of desigining,i started with Figma.
+            </p>
+            <a href="#" target="_blank">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Coding</h2>
+            <p>"Clean Code always looks like it was written by someone who cares"
+              Explore my coding in my Leetcode platform.
+            </p>
+            <a href="https://leetcode.com/Akash_15-30/" target="_blank">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills -->
+    <div id="skills">
+      <div class="skills-container">
+        <div class="main-title">
+          <h1>My Skills</h1>
+          <p>Skills which i have mentioned below, & i'm trying to work harder in my field day by day, i want to hold more & more knowledge about Software and Designing field.</p>
+        </div>
+        <div class="row">
+          <!-- left section start -->
+          <section class="col">
+            <div class="sub-title">
+              <h2>Programming Skills</h2>
+            </div>
+            <div class="Programming-container">
+              <div class="skill">
+                <div class="subject">C++</div>
+                <div class="progress-bar" value="85%">
+                  <div class="progress-line" style="max-width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="subject">C</div>
+                <div class="progress-bar" value="70%">
+                  <div class="progress-line" style="max-width: 70%;"></div>
+                </div>
+                <div class="skill">
+                  <div class="subject">MySql</div>
+                  <div class="progress-bar" value="80%">
+                    <div class="progress-line" style="max-width: 80%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="subject">JS</div>
+                  <div class="progress-bar" value="55%">
+                    <div class="progress-line" style="max-width: 55%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="subject">Python</div>
+                  <div class="progress-bar" value="25%">
+                    <div class="progress-line" style="max-width: 25%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="subject">NoSql</div>
+                  <div class="progress-bar" value="45%">
+                    <div class="progress-line" style="max-width: 45%;"></div>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <!-- right section starts -->
+          <section class="col">
+            <div class="sub-title">
+              <h2>Designing Skills</h2>
+            </div>
+            <div class="Programming-container">
+              <div class="skill">
+                <div class="subject">CSS</div>
+                <div class="progress-bar" value="80%">
+                  <div class="progress-line" style="max-width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="subject">Figma</div>
+                <div class="progress-bar" value="35%">
+                  <div class="progress-line" style="max-width: 35%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="subject">Photoshop</div>
+                <div class="progress-bar" value="55%">
+                  <div class="progress-line" style="max-width: 55%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="subject">Responsive Design</div>
+                <div class="progress-bar" value="70%">
+                  <div class="progress-line" style="max-width: 70%;"></div>
+                </div>
+              </div>
+            
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+    <div class="contact-section">
+      <div class="contact-info">
+        <div><a href="https://maps.app.goo.gl/Y47DX9VeKdkAy1g5A" target="_blank"><i class="fa-solid fa-location-crosshairs"></i>Ranchi,Jharkhand,India</a></div>
+        <div><a href="mailto:akashsinghbj@gmail.com" target="_blank"><i class="fa-solid fa-envelope-open-text"></i>akashsinghbj@gmail.com</a></div>
+        <div><a href="tel:9113396247" target="_blank">
+          <i class="fa-solid fa-phone"></i>+91 9113396247</a></div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="https://formspree.io/f/mzbnrwqj" method="post" >
+          <input type="text" name="name" class="text-box" placeholder="Your Name">
+          <input type="email" name="email" class="text-box" placeholder="Your Email">
+          <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+          <input type="Submit" name="Submit" class="send-Btn" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcons">
+          <a href="https://github.com/AkashSingh0" target="_blank"><i class="fa-brands fa-github">
+          </i></a>
+          <a href="https://leetcode.com/Akash_15-30/" target="_blank"><i class="fa-solid fa-code"></i></a>
+          <a href="https://www.linkedin.com/in/akash-singh-818345222/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://x.com/AkashSi26367073" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/15.30.0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Project</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="Design">Akash</span></p>
+
+      </div>
+    </footer>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      //var btn2=document.querySelector(".portfolio");
+      document.querySelector(".action__btns").addEventListener("click",function(e){
+        if(e.target.innerText=="Hire me" || e.target.innerText=="Resume"){
+          var link2=document.createElement("a");
+          if(e.target.innerText=="Hire me"){
+            link2.href="https://www.linkedin.com/in/akash-singh-818345222/";
+          }
+          else{
+            link2.href="https://drive.google.com/file/d/1DYRcAvGdqqCWGfdNtOqMkyNiMbXBAsIa/view?usp=drivesdk";
+            link2.download="portfolio";
+          }
+          link2.target="_blank";
+          link2.style.color="#fff";
+          link2.click();
+        } 
+      });
+     
+    </script>
+  </section>
+</body>
+
+</html>
