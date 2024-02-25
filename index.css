@@ -775,15 +775,14 @@ footer{
             justify-content: center;
     gap: 3rem;
   }
-
-  nav #check:checked ~ ul {
+ 
+  /* nav #check:checked ~ ul {
     left: 0;
-  }
+  } */
 
   ul li a {
     font-size: 1.25rem;
   }
-
   .section__container {
     padding: 10rem 1rem 5rem 1rem;
     text-align: center;
